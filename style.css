@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+canvas {
+  width: 500px;
+  height: 500px;
+}
+
+span {
+  padding: 10px 0;
+  font-size: large;
+  color: whitesmoke;
+}
+
+button {
+  cursor: pointer;
+}
+
+.title {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.btn {
+  padding-bottom: 10px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 0 3px;
+  display: block;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.color:active {
+  transform: scale(0.95);
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#first,
+#second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
